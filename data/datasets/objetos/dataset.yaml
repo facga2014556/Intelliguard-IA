@@ -1,0 +1,4 @@
+train: ../train/
+val: ../val/
+nc: 4
+names: ["0", "1", "2", "3"]
