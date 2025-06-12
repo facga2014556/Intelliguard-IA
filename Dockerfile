@@ -1,16 +1,8 @@
-# Usa una imagen oficial de Python compatible con dlib
+# Usa una imagen oficial de Python
 FROM python:3.10-slim
 
-# Instala dependencias del sistema necesarias para dlib y opencv
+# Instala dependencias del sistema necesarias para opencv
 RUN apt-get update && apt-get install -y \
-    build-essential \
-    cmake \
-    libopenblas-dev \
-    liblapack-dev \
-    libx11-dev \
-    libgtk-3-dev \
-    libboost-python-dev \
-    libboost-thread-dev \
     libsm6 \
     libxext6 \
     libxrender-dev \
